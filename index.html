@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home / X</title>
+    <link rel="shortcut icon" href="//abs.twimg.com/favicons/twitter.3.ico" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0"
+    />
+  </head>
+  <body class="bg-black text-white">
+    <div class="flex container m-auto">
+      <div class="first w-auto mr-10">
+        <div class="sticky top-0">
+          <div class="logo mb-4 mt-4 cursor-pointer">
+            <svg
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              class="w-8 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"
+            >
+              <g>
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="icons list-none">
+            <li
+              class="flex items-center mb-4 font-bold text-xl cursor-pointer hover:bg-[#1d1f23] hover:rounded-full"
+            >
+              <span class="material-symbols-outlined mr-3 !text-3xl">home</span
+              ><span class="hidden lg:inline-block">Home</span>
+            </li>
+            <li
+              class="flex items-center mb-4 font-medium text-xl cursor-pointer text-[#b0b1b4] hover:bg-[#1d1f23] hover:rounded-full"
+            >
+              <span class="material-symbols-outlined mr-3 !text-3xl">
+                search </span
+              ><span class="hidden lg:inline-block">Explore</span>
+            </li>
+            <li
+              class="flex items-center mb-4 font-medium text-xl cursor-pointer text-[#b0b1b4] hover:bg-[#1d1f23] hover:rounded-full"
+            >
+              <span class="material-symbols-outlined mr-3 !text-3xl">
+                notifications </span
+              ><span class="hidden lg:inline-block">Notifications</span>
+            </li>
+            <li
+              class="flex items-center mb-4 font-medium text-xl cursor-pointer text-[#b0b1b4] hover:bg-[#1d1f23] hover:rounded-full"
+            >
+              <span class="material-symbols-outlined mr-3 !text-3xl">
+                mail </span
+              ><span class="hidden lg:inline-block">Messages</span>
+            </li>
+            <li
+              class="flex items-center mb-4 font-medium text-xl cursor-pointer text-[#b0b1b4] hover:bg-[#1d1f23] hover:rounded-full"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+                class="invert w-7 h-7 mr-3 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1nao33i r-lwhw9o r-cnnz9e"
+              >
+                <g>
+                  <g clip-path="url(#0-clip0_2592_269)" clip-rule="evenodd">
+                    <path
+                      d="M18 4.1H6c-1.05 0-1.9.85-1.9 1.9v12c0 1.05.85 1.9 1.9 1.9h12c1.05 0 1.9-.85 1.9-1.9V6c0-1.05-.85-1.9-1.9-1.9zM6 2h12c2.21 0 4 1.79 4 4v12c0 2.21-1.79 4-4 4H6c-2.21 0-4-1.79-4-4V6c0-2.21 1.79-4 4-4z"
+                    ></path>
+                    <path
+                      d="M6.68 17.8l8.108-11.58h2.532L9.21 17.8H6.68z"
+                    ></path>
+                  </g>
+                  <defs>
+                    <clipPath id="0-clip0_2592_269">
+                      <rect height="20" rx="1" width="20" x="2" y="2"></rect>
+                    </clipPath>
+                  </defs>
+                </g>
+              </svg>
+              <span class="hidden lg:inline-block">Grok</span>
+            </li>
+            <li
+              class="flex items-center mb-4 font-medium text-xl cursor-pointer text-[#b0b1b4] hover:bg-[#1d1f23] hover:rounded-full"
+            >
+              <span class="material-symbols-outlined mr-3 !text-3xl">
+                person </span
+              ><span class="hidden lg:inline-block">Profile</span>
+            </li>
+            <li
+              class="flex items-center mb-4 font-medium text-xl cursor-pointer text-[#b0b1b4] hover:bg-[#1d1f23] hover:rounded-full"
+            >
+              <span class="material-symbols-outlined mr-3 !text-3xl">
+                more_horiz </span
+              ><span class="hidden lg:inline-block">More</span>
+            </li>
+          </div>
+          <button
+            class="hidden lg:inline-block rounded-full bg-[#1d9bf0] font-semibold text-lg p-3 pl-24 pr-24"
+          >
+            Post
+          </button>
+          <span
+            class="text-[#1d9bf0] visible lg:opacity-0 material-symbols-outlined mr-3 !text-3xl"
+          >
+            edit
+          </span>
+
+          <div
+            class="first_end flex items-center mt-10 gap-x-4 cursor-pointer hover:bg-[#1d1f23] hover:rounded-full"
+          >
+            <img
+              class="rounded-full w-10 h-10"
+              src="profile.jpeg"
+              alt="profile_pic"
+            />
+            <div class="profile hidden lg:block">
+              <div class="font-bold">Arpit Tiwari</div>
+              <div class="text-gray-500">@elegantdeadly</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- second container -->
+      <div class="second w-[1800px] border-gray-600 border-x-[1px] mr-7">
+        <div
+          class="sticky top-0 head flex justify-between items-center mt-4 mb-2 font-semibold backdrop-blur-3xl opacity-80 bg-black z-10"
+        >
+          <div class="m-auto cursor-pointer">For you</div>
+          <div class="m-auto cursor-pointer">Following</div>
+          <div class="fixed left-[85%]">
+            <span class="material-symbols-outlined cursor-pointer"
+              >settings</span
+            >
+          </div>
+          <div
+            class="bg-[#1d9bf0] rounded-full w-16 relative top-4 right-[74%] h-1"
+          ></div>
+        </div>
+        <div class="border-gray-600 border-y-[1px]"></div>
+        <div class="connect flex gap-x-3 m-4 mb-2">
+          <img
+            class="rounded-full w-10 h-10"
+            src="profile.jpeg"
+            alt="profile_pic"
+          />
+          <input
+            class="bg-transparent w-full text-xl outline-none text-wrap"
+            type="text"
+            placeholder="What is happening?!"
+          />
+        </div>
+        <div class="text-[#1d9bf0] flex items-center ml-[70px] mb-3">
+          <span class="material-symbols-outlined mr-1 !text-xl">globe_asia</span
+          >Everyone can reply
+        </div>
+        <div
+          class="border-gray-600 border-y-[1px] relative left-[10%] w-[90%] mb-3"
+        ></div>
+        <div class="relative left-[12%] w-[88%] mb-3">
+          <span
+            class="text-[#1d9bf0] material-symbols-outlined mr-3 !text-xl cursor-pointer"
+            >image</span
+          >
+          <span
+            class="text-[#1d9bf0] material-symbols-outlined mr-3 !text-xl cursor-pointer"
+            >gif_box</span
+          >
+          <span
+            class="text-[#1d9bf0] material-symbols-outlined mr-3 !text-xl cursor-pointer"
+            >ballot</span
+          >
+          <span
+            class="text-[#1d9bf0] material-symbols-outlined mr-3 !text-xl cursor-pointer"
+            >sentiment_satisfied</span
+          >
+          <span
+            class="text-[#1d9bf0] material-symbols-outlined mr-3 !text-xl cursor-pointer"
+            >calendar_clock</span
+          >
+          <span class="text-[#0f4e78] material-symbols-outlined mr-3 !text-xl"
+            >location_on</span
+          >
+          <span
+            ><button
+              class="relative rounded-full bg-[#0f4e78] font-semibold text-lg pl-4 pt-[2px] pr-4 pb-[2px]"
+            >
+              Post
+            </button></span
+          >
+        </div>
+        <div class="border-gray-600 border-y-[1px]"></div>
+        <div class="posts cursor-pointer">
+          <div class="flex items-center gap-x-3 mt-2 mb-2 ml-3 mr-3 flex-wrap">
+            <img
+              class="rounded-full w-10 h-10"
+              src="profile.jpeg"
+              alt="profile_pic"
+            />
+            <span class="font-bold hover:underline">Arpit Tiwari</span
+            ><span class="text-gray-500">@elegantdeadly . 17h</span>
+          </div>
+          <div>
+            <img
+              class="relative left-[11%] w-[85%] rounded-2xl"
+              src="https://pbs.twimg.com/media/GF_PaI9XEAAr41b?format=jpg&name=medium"
+              alt="x_image"
+            />
+          </div>
+          <div class="icons flex justify-evenly mt-1 mb-1">
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >chat_bubble</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >repeat</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >favorite</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >poll</span
+            >
+          </div>
+        </div>
+        <div class="border-gray-600 border-y-[1px]"></div>
+        <div class="posts cursor-pointer">
+          <div class="flex items-center gap-x-3 mt-2 mb-2 ml-3 mr-3 flex-wrap">
+            <img
+              class="rounded-full w-10 h-10"
+              src="profile.jpeg"
+              alt="profile_pic"
+            />
+            <span class="font-bold hover:underline">Arpit Tiwari</span
+            ><span class="text-gray-500">@elegantdeadly . 10h</span>
+          </div>
+          <div class="relative bottom-2">
+            “don't you get tired of being alone?” me being alone:
+          </div>
+          <div>
+            <img
+              class="relative left-[11%] w-[85%] rounded-2xl"
+              src="https://pbs.twimg.com/media/GF8_iSuWcAA7t1I?format=jpg&name=small"
+              alt="x_image"
+            />
+          </div>
+          <div class="icons flex justify-evenly mt-1 mb-1">
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >chat_bubble</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >repeat</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >favorite</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >poll</span
+            >
+          </div>
+        </div>
+        <div class="border-gray-600 border-y-[1px]"></div>
+        <div class="posts cursor-pointer">
+          <div class="flex items-center gap-x-3 mt-2 mb-2 ml-3 mr-3 flex-wrap">
+            <img
+              class="rounded-full w-10 h-10"
+              src="profile.jpeg"
+              alt="profile_pic"
+            />
+            <span class="font-bold hover:underline">Arpit Tiwari</span
+            ><span class="text-gray-500">@elegantdeadly . 6h</span>
+          </div>
+          <div class="relative bottom-2">"WHO TOOK MY?!!! ohh found it"</div>
+          <div>
+            <img
+              class="relative left-[11%] w-[85%] rounded-2xl"
+              src="https://pbs.twimg.com/media/GF_F2eeXAAAsOy2?format=jpg&name=360x360"
+              alt="x_image"
+            />
+          </div>
+          <div class="icons flex justify-evenly mt-1 mb-1">
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >chat_bubble</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >repeat</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >favorite</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >poll</span
+            >
+          </div>
+        </div>
+        <div class="border-gray-600 border-y-[1px]"></div>
+        <div class="posts cursor-pointer">
+          <div class="flex items-center gap-x-3 mt-2 mb-2 ml-3 mr-3 flex-wrap">
+            <img
+              class="rounded-full w-10 h-10"
+              src="profile.jpeg"
+              alt="profile_pic"
+            />
+            <span class="font-bold hover:underline">Arpit Tiwari</span
+            ><span class="text-gray-500">@elegantdeadly . 4h</span>
+          </div>
+          <div class="relative bottom-2">If The Titanic Sank Today:</div>
+          <div>
+            <img
+              class="relative left-[11%] w-[85%] rounded-2xl"
+              src="https://pbs.twimg.com/media/GF9ykUFWIAAvoC8?format=jpg&name=small"
+              alt="x_image"
+            />
+          </div>
+          <div class="icons flex justify-evenly mt-1 mb-1">
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >chat_bubble</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >repeat</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >favorite</span
+            >
+            <span class="material-symbols-outlined !text-xl cursor-pointer"
+              >poll</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Third container -->
+      <div class="third w-full hidden lg:block">
+        <div class="sticky top-0">
+          <div
+            class="search rounded-full bg-[#16181c] flex items-center w-96 mt-2 p-2 mb-4"
+          >
+            <span class="material-symbols-outlined mr-5"> search </span>
+            <input class="text-base" type="button" value="Search" />
+          </div>
+          <div class="subscribe bg-[#16181c] p-3 rounded-xl mb-4">
+            <h1 class="mb-1 text-xl font-bold">Subscribe to premium</h1>
+            <p class="mb-1">
+              Subscribe to unlock new features and if eligible, receive a share
+              of ads revenue.
+            </p>
+            <button
+              class="rounded-full bg-[#1d9bf0] font-semibold text-base p-2 pl-5 pr-5"
+            >
+              Subscribe
+            </button>
+          </div>
+          <div class="happen bg-[#16181c] rounded-2xl pt-3 pb-3 pl-5 pr-5 mb-4">
+            <h1 class="text-xl font-bold mb-4">What's happening</h1>
+            <div class="item hover:bg-[#1d1f23] mb-4 cursor-pointer">
+              <div class="font-bold">Fashion Week Fall 2024</div>
+              <div class="text-gray-500">Fashion Week</div>
+            </div>
+            <div class="item hover:bg-[#1d1f23] mb-4 cursor-pointer">
+              <div class="font-bold">#LearnAndEarn</div>
+              <div class="text-gray-500">96M posts</div>
+            </div>
+            <div class="item hover:bg-[#1d1f23] mb-4 cursor-pointer">
+              <div class="text-gray-500">Trending in India</div>
+              <div class="font-bold">#CodeAndCode</div>
+              <div class="text-gray-500">2.2M posts</div>
+            </div>
+            <div class="item hover:bg-[#1d1f23] mb-4 cursor-pointer">
+              <div class="text-gray-500">Trending in India</div>
+              <div class="font-bold">#LearnWebDevelopment</div>
+              <div class="text-gray-500">7.2M posts</div>
+            </div>
+            <div class="item hover:bg-[#1d1f23] mb-4 cursor-pointer">
+              <div class="text-gray-500">Trending in India</div>
+              <div class="font-bold">#MasterDSA</div>
+              <div class="text-gray-500">9.2M posts</div>
+            </div>
+            <div class="show">
+              <div class="text-[#1d8cd8]">Show More</div>
+            </div>
+          </div>
+          <div class="follow bg-[#16181c] rounded-2xl pt-3 pb-3 pl-5 pr-5">
+            <h1 class="text-xl mb-4 font-bold">Who to follow</h1>
+            <div
+              class="flex gap-x-3 item hover:bg-[#1d1f23] mb-4 cursor-pointer"
+            >
+              <img
+                class="rounded-full w-10 h-10"
+                src="profile.jpeg"
+                alt="elegantdeadly"
+              />
+              <div>
+                <div class="font-bold">Arpit Tiwari</div>
+                <div class="text-gray-500">@elegantdeadly</div>
+              </div>
+            </div>
+            <div
+              class="flex gap-x-3 item hover:bg-[#1d1f23] mb-4 cursor-pointer"
+            >
+              <img
+                class="rounded-full"
+                src="https://pbs.twimg.com/profile_images/1604943357750419465/wk5BAmKG_normal.png"
+                alt="positive_thoughts"
+              />
+              <div>
+                <div class="font-bold">Positive Thoughts</div>
+                <div class="text-gray-500">@positivethoughts</div>
+              </div>
+            </div>
+            <div
+              class="flex gap-x-3 item hover:bg-[#1d1f23] mb-4 cursor-pointer"
+            >
+              <img
+                class="rounded-full"
+                src="https://pbs.twimg.com/profile_images/1558374373299408896/G203Cvl5_normal.jpg"
+                alt="lifelessons"
+              />
+              <div>
+                <div class="font-bold">Life Lessons</div>
+                <div class="text-gray-500">@lifelessons</div>
+              </div>
+            </div>
+            <div class="show hover:bg-[#1d1f23]">
+              <div class="text-[#1d8cd8]">Show More</div>
+            </div>
+          </div>
+          <div class="last">
+            <span class="text-gray-500 mx-10">
+              <span class="hover:underline">Terms of Service</span>
+              <span class="hover:underline">Privacy Policy</span>
+              <span class="hover:underline">Cookie Policy </span> </span
+            ><br />
+            <span class="text-gray-500 mx-10">
+              <span class="hover:underline">Accessbility</span>
+              <span class="hover:underline">Ads info</span>
+              <span class="hover:underline">More...</span>
+              <span> © 2024 X Corp.</span></span
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
